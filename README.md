@@ -26,17 +26,8 @@ Below is the scenario 1 from Splunk's site:
 
 > Today is Alice's first day at the Wayne Enterprise Security Operations Center. Lucius sits Alice down and gives her first assignment: A memo from Gotham City Police Department (GCPD). Apparently GCPD has found evidence online (http://pastebin.com/Gw6dWjS9) that the website www.imreallynotbatman.com hosted on Wayne Enterprise's IP address space has been compromised. The group has multiple objectives... but a key aspect of their modus operandi is to deface websites in order to embarrass their victim. Lucius has asked Alice to determine if www.imreallynotbatman.com. (the personal blog of Wayne Corporations CEO) was really compromised.
 
-Bots v1 sourcetype summary: https://botscontent.netlify.app/v1/bots_sourcetypes.html
 
 Splunk quick reference guide: https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf
-
-GCPD poison ivy memo: https://botscontent.netlify.app/v1/gcpd-poisonivy-memo.html
-
-Alices journal: https://botscontent.netlify.app/v1/alice-journal.html
-
-Mission document: https://botscontent.netlify.app/v1/mission_document.html
-
-
 
 ## Questions:
 1. What is the likely IPv4 address of someone from the Po1s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities?
@@ -84,7 +75,6 @@ I was searching online for a good methodology on how to start looking into an al
 ![metadata](/Scenarios/Screenshots/metadata.png)
 
 Now we can get an idea of what sourcetypes we are working with, along with how many logs are in each.
-
 
 
 ### 1
@@ -151,7 +141,6 @@ For this one, I just added .exe to the search field and only had two hits. I did
 <p align="center">
     <img src="/Scenarios/Screenshots/s1_exe.png">
 </p>
-
 
 
 ### 9
@@ -279,11 +268,7 @@ Ransomware screen shot: https://botscontent.netlify.app/v1/cerber-sshot.png
 
 Ransomware warning: https://botscontent.netlify.app/v1/cerber-sample-voice.mp3
 
-Bots v1 sourcetype summary: https://botscontent.netlify.app/v1/bots_sourcetypes.html
 
-Alices journal: https://botscontent.netlify.app/v1/alice-journal.html
-
-Mission document: https://botscontent.netlify.app/v1/mission_document.html
 
 
 
