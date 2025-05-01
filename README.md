@@ -14,9 +14,9 @@ I originally completed the lab on https://bots.splunk.com and then set up a virt
 <br>
 Click on a scenario to follow along with me.
 
-[Scenario 1](/Scenarios/Scenario%201.md)
+[Scenario 1]
 
-[Scenario 2](/Scenarios/Scenario%202.md)
+[Scenario 2]
 
 # Scenario 1 - Web Site Defacement
 
