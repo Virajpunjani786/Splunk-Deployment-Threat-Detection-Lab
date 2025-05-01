@@ -3,7 +3,7 @@
 
 My progress through the version 1 challenge.
 
-I just want to give credit to those at Splunk involved in making the Boss of the SOC - version 1. I do not want to spoil anything for those who have not completed the lab, but it made me enjoy this one because of the storyline. Click the link to each scenario to follow along with me as I work through the case.
+I just want to give credit to those at Splunk involved in making the Boss of the SOC - version 1. I do not want to spoil anything for those who have not completed the lab, but it made me enjoy this one because of the storyline. Here in this reposiotry I have gone through both scenarios of the boss of the soc version 1. 
 
 I originally completed the lab on https://bots.splunk.com and then set up a virtual machine using VirtualBox. I used Ubuntu 20.04 LTS and installed Splunk's Enterprise deb file. I then downloaded the data set from https://github.com/splunk/botsv1. GitHub also has a list of apps you should install. I extracted the 9.3GB data set and added it to Splunk. Now we can play with Splunk's SPL queries and work through the case.
 
@@ -12,14 +12,13 @@ I originally completed the lab on https://bots.splunk.com and then set up a virt
 </p>
 
 <br>
-Click on a scenario to follow along with me.
+Now here is the breakdown of both scenario's:
 
 [Scenario 1]
 
 [Scenario 2]
 
 # Scenario 1 - Web Site Defacement
-
 
 
 Below is the scenario 1 from Splunk's site:
@@ -63,7 +62,6 @@ Splunk quick reference guide: https://www.splunk.com/pdfs/solution-guides/splunk
 16. How many seconds elapsed between the time the brute force password scan identified the correct password and the compromised login?
 
 17. How many unique passwords were attempted in the brute force attempt?
-
 
 
 ## Starting the Investigate
@@ -263,12 +261,6 @@ Below is the scenario 2 from Splunk's site:
 >After the excitement of yesterday, Alice has started to settle into her new job. Sadly, she realizes her new colleagues may not be the crack cybersecurity team that she was led to believe before she joined. Looking through her incident ticketing queue she notices a “critical” ticket that was never addressed. Shaking her head, she begins to investigate. Apparently on August 24th Bob Smith (using a Windows 10 workstation named we8105desk) came back to his desk after working-out and found his speakers blaring (click below to listen), his desktop image changed (see below) and his files inaccessible.
 
 >Alice has seen this before... ransomware. After a quick conversation with Bob, Alice determines that Bob found a USB drive in the parking lot earlier in the day, plugged it into his desktop, and opened up a word document on the USB drive called "Miranda_Tate_unveiled.dotm". With a resigned sigh she begins to dig into the problem...
-
-Ransomware screen shot: https://botscontent.netlify.app/v1/cerber-sshot.png
-
-Ransomware warning: https://botscontent.netlify.app/v1/cerber-sample-voice.mp3
-
-
 
 
 
