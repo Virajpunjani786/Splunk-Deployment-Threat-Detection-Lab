@@ -8,3 +8,8 @@
  # Walkthroughs
  
  - [Splunk BOTSv1](https://github.com/chan2git/splunk-bots/tree/main/botsv1) (completed) :white_check_mark:
+
+What was the most likely IPv4 address of we8105desk on 24AUG2016?
+First off I wanted to know what sort of data had been ingested into Splunk. With the search command below I found all the source types I needed for the CTF.
+
+| metadata type=sourcetypes index="botsv1"
